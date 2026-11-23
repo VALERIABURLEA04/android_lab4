@@ -1,0 +1,40 @@
+name: gemstore_lab4
+description: "GemStore — Laboratorul 4, varianta 1."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.5.0
+  json_annotation: ^4.12.0
+  material_ui: ^1.11.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  build_runner: ^2.7.0
+  json_serializable: ^6.11.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/fonts/OFL.txt
+    - assets/photo_framing.json
+    - assets/figma/
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
